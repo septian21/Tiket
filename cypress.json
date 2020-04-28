@@ -1,0 +1,4 @@
+{
+    "integrationFolder": "cypress/integration/campaign/test",
+    "reporter": "mochawesome"
+}
