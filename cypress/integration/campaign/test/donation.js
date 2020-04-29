@@ -5,7 +5,7 @@ describe('Campaign donation', function () {
         browser.navigateToSite()
     })
     it('As a User can donation from campaign', function () {
-       browser.assertVariantColor(1)
+       browser.campaign(1)
        browser.clickDonasi()
        browser.selectNominal("20.000")
        browser.selectBank("BCA")

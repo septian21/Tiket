@@ -14,7 +14,7 @@ export function navigateToSite(){
     cy.visit('https://kitabisa.com/');
 }
 
-export function assertVariantColor(index){
+export function campaign(index){
     cy.get(elements.carousel_mendesak).eq(index).should('be.visible').click()
 }
 
